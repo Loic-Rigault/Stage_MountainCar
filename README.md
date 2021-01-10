@@ -38,3 +38,11 @@ Enfin la classe main instancie notre jeu et lance la simulation.
 
 
 ## Pour tensorflow 2:
+
+Pour réaliser la transition vers TF2, nous devons voir ce qui n'est plus à jour. On remarque rapidement que les placeholder et les layers ne s'instancie plus comme avant.
+Pour cela, nous devons utiliser la librairie 'Keras' et remplacer tout les anciens appels de layers avec : tf.keras.layers.layerName
+Pour les placeholder, nous pouvons aussi utiliser Keras et remplacer par 'tf.keras.Input' mais cela implique de definir après la forme des entrées.
+
+
+
+
