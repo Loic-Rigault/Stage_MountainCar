@@ -9,6 +9,7 @@ import matplotlib.pylab as plt
 import random
 import math
 
+#tf.compat.v1.disable_eager_execution()
 
 #Variables gobales:
 MAX_EPSILON = 1
